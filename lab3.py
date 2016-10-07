@@ -1,5 +1,5 @@
 import random
-
+#josue ruiz
 
 def mc_runs():
     print("Monte Carlo with the following inputs")
@@ -42,13 +42,13 @@ switch = {
 }
 
 
-# def main():
-print("CS 299 Lab 3")
-print("1) Monte Carlo")
-print("2) Sales")
-choice = input("Enter a choice: \n")
-switch.get(str(choice), error)()
+def main():
+    print("CS 299 Lab 3")
+    print("1) Monte Carlo")
+    print("2) Sales")
+    choice = input("Enter a choice: \n")
+    switch.get(str(choice), error)()
 
-#
-# if __name__ == "__main __":
-#     main()
+
+if __name__ == "__main__":
+    main()
