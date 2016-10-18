@@ -33,5 +33,5 @@ print("Removed the first 7 from the list\n", lst)
 
 # Part G
 lst.pop(lst.index('dog'))
-print("List with dog removed by finding the index and then removing with pop\n", lst)s
+print("List with dog removed by finding the index and then removing with pop\n", lst)
 
